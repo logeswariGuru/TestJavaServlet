@@ -1,0 +1,212 @@
+
+  } 
+  else if(bookType=="awards")
+  {
+     var bookImg = ["images.png","book.png","image1.png","images.png","book.png","image1.png","images.png","book.png","image1.png",];
+     var title = ["Success Bigins","Adventure Begin","Thrilling","Success Bigins","Adventure Begin","Thrilling","Success Bigins","Adventure Begin","Thrilling"];
+     for(var i=0;i<bookImg.length;i++)
+      {
+          alert("--For--"); 
+        /* div tag */
+        var div = document.createElement("div");
+        /*Style for Div*/
+        div.className="BookDiv";
+        div.id="awardsBookDiv";
+        /*h4 tag */
+        var h4 = document.createElement("h6");
+        var h4Node = document.createTextNode(title[i]);
+        h4.appendChild(h4Node);
+        /*img tag */
+        var img = document.createElement("img");
+        img.setAttribute("src","images/"+bookImg[i]);
+        img.setAttribute("width","100%");
+        img.setAttribute("height","60%");
+        img.className="bookimg";
+        /*link tag */
+        var link = document.createElement("a");
+        var linkNode = document.createTextNode("ClickToBuy");
+        var linkToggleAttr = document.createAttribute("data-toggle");
+        linkToggleAttr.value="modal";
+        link.setAttributeNode(linkToggleAttr);
+        var linkTargetAttr = document.createAttribute("data-target");
+        linkTargetAttr.value = "#BookDetailModal";
+        link.setAttributeNode(linkTargetAttr);
+        link.appendChild(linkNode);
+        link.className="clicktobuy";
+           
+        var bookLoop = document.getElementById("bookLoop");
+        div.appendChild(h4);
+        div.appendChild(img);
+        div.appendChild(link);
+        bookLoop.appendChild(div);
+        
+      } 
+
+  } 
+  else if(bookType=="thrilling")
+  {
+for(var i=0;i<bookImg.length;i++)
+      {
+          alert("--For--"); 
+        /* div tag */
+        var div = document.createElement("div");
+        /*Style for Div*/
+        div.className="BookDiv";
+        div.id="thrillingBookDiv";
+        /*h4 tag */
+        var h4 = document.createElement("h6");
+        var h4Node = document.createTextNode(title[i]);
+        h4.appendChild(h4Node);
+        /*img tag */
+        var img = document.createElement("img");
+        img.setAttribute("src","images/"+bookImg[i]);
+        img.setAttribute("width","100%");
+        img.setAttribute("height","60%");
+        img.className="bookimg";
+        /*link tag */
+        var link = document.createElement("a");
+        var linkNode = document.createTextNode("ClickToBuy");
+        var linkToggleAttr = document.createAttribute("data-toggle");
+        linkToggleAttr.value="modal";
+        link.setAttributeNode(linkToggleAttr);
+        var linkTargetAttr = document.createAttribute("data-target");
+        linkTargetAttr.value = "#BookDetailModal";
+        link.setAttributeNode(linkTargetAttr);
+        link.appendChild(linkNode);
+        link.className="clicktobuy";
+           
+        var bookLoop = document.getElementById("bookLoop");
+        div.appendChild(h4);
+        div.appendChild(img);
+        div.appendChild(link);
+        bookLoop.appendChild(div);
+        
+      } 
+    
+  } 
+  else if(bookType=="engineer")
+  {
+for(var i=0;i<bookImg.length;i++)
+      {
+          alert("--For--"); 
+        /* div tag */
+        var div = document.createElement("div");
+        /*Style for Div*/
+        div.className="BookDiv";
+        div.id="engineerBookDiv";
+        /*h4 tag */
+        var h4 = document.createElement("h6");
+        var h4Node = document.createTextNode(title[i]);
+        h4.appendChild(h4Node);
+        /*img tag */
+        var img = document.createElement("img");
+        img.setAttribute("src","images/"+bookImg[i]);
+        img.setAttribute("width","100%");
+        img.setAttribute("height","60%");
+        img.className="bookimg";
+        /*link tag */
+        var link = document.createElement("a");
+        var linkNode = document.createTextNode("ClickToBuy");
+        var linkToggleAttr = document.createAttribute("data-toggle");
+        linkToggleAttr.value="modal";
+        link.setAttributeNode(linkToggleAttr);
+        var linkTargetAttr = document.createAttribute("data-target");
+        linkTargetAttr.value = "#BookDetailModal";
+        link.setAttributeNode(linkTargetAttr);
+        link.appendChild(linkNode);
+        link.className="clicktobuy";
+           
+        var bookLoop = document.getElementById("bookLoop");
+        div.appendChild(h4);
+        div.appendChild(img);
+        div.appendChild(link);
+        bookLoop.appendChild(div);
+        
+      } 
+    
+  } 
+  else if(bookType=="java")
+  {
+     alert("-->JavaBook-->");
+      var bookImg = ["image1.png"];
+      var title = ["Adventure Begin"];
+     var Rmvelem = document.getElementById('motiveBookDiv');
+ elem.parentNode.removeChild(Rmvelem);
+    
+      
+      for(var i=0;i<bookImg.length;i++)
+      {
+          alert("--For--"); 
+        /* div tag */
+        var div = document.createElement("div");
+        /*Style for Div*/
+        div.className="BookDiv";
+        div.id="javaBookDiv";
+        /*h4 tag */
+        var h4 = document.createElement("h6");
+        var h4Node = document.createTextNode(title[i]);
+        h4.appendChild(h4Node);
+        /*img tag */
+        var img = document.createElement("img");
+        img.setAttribute("src","images/"+bookImg[i]);
+        img.setAttribute("width","100%");
+        img.setAttribute("height","60%");
+        img.className="bookimg";
+        /*link tag */
+        var link = document.createElement("a");
+        var linkNode = document.createTextNode("ClickToBuy");
+        var linkToggleAttr = document.createAttribute("data-toggle");
+        linkToggleAttr.value="modal";
+        link.setAttributeNode(linkToggleAttr);
+        var linkTargetAttr = document.createAttribute("data-target");
+        linkTargetAttr.value = "#BookDetailModal";
+        link.setAttributeNode(linkTargetAttr);
+        link.appendChild(linkNode);
+        link.className="clicktobuy";
+           
+        var bookLoop = document.getElementById("bookLoop");
+        div.appendChild(h4);
+        div.appendChild(img);
+        div.appendChild(link);
+        bookLoop.appendChild(div);
+        
+      } 
+  }
+  for(var i=0;i<bookImg.length;i++)
+      {
+          alert("--For--"); 
+        /* div tag */
+        var div = document.createElement("div");
+        /*Style for Div*/
+        div.className="BookDiv";
+        div.id="motiveBookDiv";
+        div.setAttribute("style","background-color:gray");
+        /*h4 tag */
+        var h4 = document.createElement("h6");
+        var h4Node = document.createTextNode(title[i]);
+        h4.appendChild(h4Node);
+        /*img tag */
+        var img = document.createElement("img");
+        img.setAttribute("src","images/"+bookImg[i]);
+        img.setAttribute("width","100%");
+        img.setAttribute("height","60%");
+        img.className="bookimg";
+        /*link tag */
+        var link = document.createElement("a");
+        var linkNode = document.createTextNode("ClickToBuy");
+        var linkToggleAttr = document.createAttribute("data-toggle");
+        linkToggleAttr.value="modal";
+        link.setAttributeNode(linkToggleAttr);
+        var linkTargetAttr = document.createAttribute("data-target");
+        linkTargetAttr.value = "#BookDetailModal";
+        link.setAttributeNode(linkTargetAttr);
+        link.appendChild(linkNode);
+        link.className="clicktobuy";
+           
+        var bookLoop = document.getElementById("bookLoop");
+        div.appendChild(h4);
+        div.appendChild(img);
+        div.appendChild(link);
+        bookLoop.appendChild(div);
+        
+      } 

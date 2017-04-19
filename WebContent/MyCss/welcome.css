@@ -1,0 +1,169 @@
+.wel_Container
+{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	height:700px;
+	margin-top:1%;
+	margin-bottom:1%;
+	background-color:#9bdfae;
+}
+@media only screen and (max-width:500px)
+{
+	.wel_Container
+	{
+		height:auto;
+		
+	}
+}
+.wel_ContainerTitle
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:85%;	
+}
+.wel_ContainerLink
+{
+	float:right;
+	margin-right:2%;
+	width:15%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:-5%;
+}
+.wel_ContainerLink_Login
+{
+	margin-right:2%;
+}
+
+/*Book */
+.TitleOfBooks
+{
+	height:92.5%;
+	background-color: #010103;
+	width:20%;
+	background-color:#101010;
+	float:left;
+	
+}
+@media only screen and (max-width: 600px) {
+    .TitleOfBooks 
+	{
+        
+		width:95%;
+		height:auto;
+		margin-left:2.5%;
+		margin-right:2%;
+		margin-top:-9%;
+		margin-bottom:2%;
+		
+		
+
+    }
+}
+#bookLoop
+{
+	/*height:85%;*/
+	margin-top:-2%;
+	margin-left:1%;
+	margin-right:1%;
+	width:55%;
+	float:left;
+	
+}
+@media only screen and (max-width: 600px)
+{
+	#bookLoop
+	{
+      width:90%;
+	  
+	  margin-left:2%;
+	
+	  
+
+	}
+}
+#javaLoop
+{
+	/*height:85%;*/
+	margin-top:-2%;
+	margin-left:1%;
+	margin-right:1%;
+	width:55%;
+	float:left;
+	
+}
+@media only screen and (max-width: 600px)
+{
+	#javaLoop
+	{
+      width:90%;
+	  
+	  margin-left:2%;
+	
+	  
+
+	}
+}
+
+.clicktobuy
+{
+	font-size:12px;	
+	color:black;
+}
+.Cart
+{
+	height:85%;
+	margin-top:-4%;
+	width:23%;
+	background-color:#101010;
+	float:left;
+}
+
+@media only screen and (max-width: 600px) {
+    .Cart 
+	{
+        margin-top:-5%;
+
+    }
+}
+@media only screen and (max-width: 550px) {
+    .Cart 
+	{
+        display:none;
+    }
+}
+.BookDiv
+{
+	width:22%;
+	height:30%;
+	float:left;
+	margin-left:2%;
+	background-color:white;
+	margin-top:6%;
+	
+}
+
+@media only screen and (max-width: 600px)
+{
+	.BookDiv
+	{
+      width:100%;
+	  
+
+	}
+}
+.navbar-brand:hover
+{
+	background-color:  #f1540d;
+}
+/*@media only screen and (max-width: 600px)
+{
+	.bookimg
+	{
+		width:50%;
+		height:50%;
+	}
+}*/
